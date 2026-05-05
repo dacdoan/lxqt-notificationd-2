@@ -44,7 +44,7 @@
 #include "notification.h"
 #include "notificationwidgets.h"
 
-#define ICONSIZE QSize(32, 32)
+#define ICONSIZE QSize(64, 64)
 
 
 Notification::Notification(const QString &application,

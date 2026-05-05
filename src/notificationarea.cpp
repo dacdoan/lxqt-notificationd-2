@@ -120,7 +120,7 @@ void NotificationArea::setHeight(int contentHeight)
         contentHeight = height();
 
     QRect workArea = widgetScreen->availableGeometry();
-    workArea -= QMargins(m_spacing, m_spacing, m_spacing, m_spacing);
+    workArea -= QMargins(32, 32, 32, 32);
     QRect notif_rect = workArea.normalized();
     notif_rect.setWidth(width());
     if (notif_rect.height() > contentHeight)
